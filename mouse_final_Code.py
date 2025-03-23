@@ -12,7 +12,6 @@ try:
 except serial.SerialException as e:
     print(f"Error connecting to serial: {e}")
     exit()
-
 while True:
     try:
         # Read data from Arduino
